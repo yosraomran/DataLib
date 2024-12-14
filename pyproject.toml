@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datalib"
+version = "0.1.0"
+description = "A Python library for data manipulation, statistics, and machine learning."
+authors = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "pytest"
+]
