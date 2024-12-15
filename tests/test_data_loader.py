@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import os
 from io import StringIO
-from datalib.data_loader import load_data, save_data, filter_data, handle_missing_values, normalize_data
+from datalib.data_loader import *
 
 def test_load_data():
     # Créer un fichier CSV temporaire
