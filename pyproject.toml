@@ -39,6 +39,3 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/yosraomran/DataLib"
 Documentation = "https://github.com/yosraomran/DataLib/blob/main/README.md"
-
-# Définir dynamiquement les champs que vous voulez
-dynamic = ["readme", "requires-python",  "classifiers", "scripts", "dependencies", "optional-dependencies"]
