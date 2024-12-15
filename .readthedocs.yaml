@@ -13,4 +13,4 @@ python:
   install:
     - method: pip
       path: .
-    - requirements: docs/index.rst  # Path to your requirements file
+    - requirements: docs/requirements.txt 
