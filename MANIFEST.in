@@ -1,5 +1,4 @@
 include README.md
 include LICENSE
-recursive-include dataset *
 recursive-include docs/source *
 recursive-include examples *

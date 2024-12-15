@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: datalib
+Version: 0.1.0
+Summary: A Python library for data manipulation, statistics, and machine learning.
+Home-page: https://github.com/yosraomran/DataLib
+Author: Yosra Omrane
+Author-email: Yosra OMRANE <yosomran@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # DataLib
 The DataLib library is a tool designed to simplify data manipulation and analysis 
 in Python projects. It offers features suitable for a wide range of users 

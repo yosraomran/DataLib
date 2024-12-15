@@ -6,12 +6,50 @@
 DataLib documentation
 =====================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+datalib package
+===================
 
+Submodules
+----------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+datalib.data\_loader module
+-------------------------------------
+
+.. automodule:: datalib.data_loader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+datalib.data\_stats module
+-------------------------------------
+
+.. automodule:: datalib.data_stats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+datalib.data\_viz module
+-----------------------------
+
+.. automodule:: datalib.data_viz
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+datalib.ml\_models module
+--------------------------------
+
+.. automodule:: datalib.ml_models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: datalib
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 
