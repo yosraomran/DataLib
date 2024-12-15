@@ -10,7 +10,7 @@ readme = "README.md"  # Ensure this points to the actual README file
 long_description = { file = "README.md", content_type = "text/markdown" }
 requires-python = ">=3.10"
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
-dynamic = ["long_description", "requires-python", "classifiers"]
+dynamic = ["version", "description", "readme", "requires-python", "license", "authors", "maintainers", "keywords", "classifiers", "urls", "scripts", "gui-scripts", "entry-points", "dependencies", "optional-dependencies"]
 authors = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
 dependencies = [
     "numpy",
