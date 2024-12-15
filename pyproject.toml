@@ -1,21 +1,44 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "DataLib"
+version = "0.1.0"
 description = "A Python library for data manipulation, statistics, and machine learning."
-readme = "README.md"
-version="0.1.0"
+readme = "README.md"  # Assurez-vous que cela pointe vers votre fichier README réel
 requires-python = ">=3.10"
-classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
-dynamic = ["classifiers", "urls", "scripts", "dependencies", "optional-dependencies"]
+license = {text = "MIT License"}
 authors = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
+maintainers = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
+keywords = ["data manipulation", "statistics", "machine learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+# Liste des dépendances requises
 dependencies = [
     "numpy",
     "pandas",
     "matplotlib",
     "seaborn",
     "scikit-learn",
-    "pytest",
     "twine",
+]
+
+# Dépendances optionnelles (si vous en avez)
+[project.optional-dependencies]
+dev = [
+    "pytest",
     "sphinx"
 ]
+
+# URLs liées au projet
 [project.urls]
 Homepage = "https://github.com/yosraomran/DataLib"
+Documentation = "https://github.com/yosraomran/DataLib/blob/main/README.md"
+
+# Définir dynamiquement les champs que vous voulez
+dynamic = ["version", "description", "readme", "requires-python", "license", "maintainers", "classifiers", "urls", "scripts", "dependencies", "optional-dependencies"]
