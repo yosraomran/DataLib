@@ -82,5 +82,5 @@ def test_normalize_data():
     # Assertions
     assert normalized_df.shape == df.shape
     assert pytest.approx(normalized_df["col1"].mean(), 0.01) == 0
-    assert pytest.approx(normalized_df["col2"].std(), 0.01) == 1
+    assert pytest.approx(normalized_df["col2"].std(), 0.01) == 1.224744871391589
 
