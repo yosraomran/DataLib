@@ -5,7 +5,7 @@ readme = "README.md"
 version="0.1.0"
 requires-python = ">=3.10"
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
-dynamic = ["description", "readme", "requires-python", "license", "maintainers", "classifiers", "urls", "scripts", "dependencies", "optional-dependencies"]
+dynamic = ["requires-python", "maintainers", "classifiers", "urls", "scripts", "dependencies", "optional-dependencies"]
 authors = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
 dependencies = [
     "numpy",
