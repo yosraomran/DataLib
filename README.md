@@ -34,7 +34,10 @@ advanced tools for statistical analysis and machine learning models.
 ```bash
 pip install datalib
 ```
-
+## Installation from PyPi
+```
+pip install -i https://test.pypi.org/simple/ datalib==0.1.0
+```
 ## License
 
 This project is licensed under the MIT License.
