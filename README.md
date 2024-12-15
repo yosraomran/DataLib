@@ -27,13 +27,13 @@ The goal of **DataLib** is to provide an easy-to-install, intuitive Python packa
 - Dimensionality Reduction (PCA)
 
 ## Project Structure
-Source Code: The code is organized in a modular format (src/ or equivalent), allowing for easy maintenance and scalability.
-Dependencies: It requires essential libraries like numpy, pandas, matplotlib, and scikit-learn. All dependencies are defined in setup.py, pyproject.toml, or setup.cfg.
-Documentation:
+- **Source Code:** The code is organized in a modular format (src/ or equivalent), allowing for easy maintenance and scalability.
+- **Dependencies:** It requires essential libraries like numpy, pandas, matplotlib, and scikit-learn. All dependencies are defined in setup.py, pyproject.toml, or setup.cfg.
+- **Documentation:**
 A detailed README.md file is included, providing a comprehensive guide on usage and features.
 Examples of how to implement and use the library are also provided.
 Technical documentation is generated using Sphinx.
-Tests:
+- **Tests:**
 Unit tests are written for core functions using pytest.
 CI/CD workflows are integrated (e.g., using GitHub Actions) to validate changes and maintain code quality(build ans deploy).
 
