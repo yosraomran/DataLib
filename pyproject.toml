@@ -1,15 +1,10 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "DataLib"
-version = "0.1.0"
 description = "A Python library for data manipulation, statistics, and machine learning."
-readme = "README.md"  # Ensure this points to the actual README file
+readme = "README.md"
 requires-python = ">=3.10"
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
-dynamic = ["version", "description", "readme", "requires-python", "license", "authors", "maintainers", "keywords", "classifiers", "urls", "scripts", "gui-scripts", "entry-points", "dependencies", "optional-dependencies"]
+dynamic = ["description", "readme", "requires-python", "license", "maintainers", "classifiers", "urls", "scripts", "dependencies", "optional-dependencies"]
 authors = [{name = "Yosra OMRANE", email = "yosomran@gmail.com"}]
 dependencies = [
     "numpy",
