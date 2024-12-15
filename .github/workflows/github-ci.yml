@@ -23,14 +23,21 @@ jobs:
       with:
         python-version: '3.11'  # Use the required Python version
 
-    # Install dependencies
+    - name: Cache Python dependencies
+      uses: actions/cache@v2
+      with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-python-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-python-
+  
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest-cov
-
-    # Run tests
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+  
     - name: Run tests
       run: |
-        pytest tests/ --cov=src
+          export PYTHONPATH=$(pwd)/src  # Set the PYTHONPATH to include the src directory
+          python -m pytest --maxfail=1 --disable-warnings -q --tb=short
+  
