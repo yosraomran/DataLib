@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "DataLib"
-version = "0.2.0"
+version = "0.1.0"
 description = "A Python library for data manipulation, statistics, and machine learning."
 readme = "README.md"  # Assurez-vous que cela pointe vers votre fichier README réel
 requires-python = ">=3.10"
